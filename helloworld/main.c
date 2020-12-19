@@ -1,7 +1,10 @@
 #include <stdio.h>;
 
 void main() {
-	printf("Hello World!\n");
+	
+	for (int i = 0; i <= 32; i++) {
+		printf("Hello World! %d\n",i);
+	}
 }
 
 
